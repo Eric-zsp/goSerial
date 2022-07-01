@@ -1,6 +1,6 @@
 // +build !windows,!linux,cgo
 
-package serial
+package goSerial
 
 // #include <termios.h>
 // #include <unistd.h>

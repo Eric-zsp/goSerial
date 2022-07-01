@@ -1,6 +1,7 @@
+//go:build linux
 // +build linux
 
-package serial
+package goSerial
 
 import (
 	"os"

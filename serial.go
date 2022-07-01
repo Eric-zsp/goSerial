@@ -29,13 +29,13 @@ Example usage:
   package main
 
   import (
-        "github.com/tarm/serial"
+        "github.com/Eric-zsp/goSerial"
         "log"
   )
 
   func main() {
-        c := &serial.Config{Name: "COM5", Baud: 115200}
-        s, err := serial.OpenPort(c)
+        c := &goSerial.Config{Name: "COM5", Baud: 115200}
+        s, err := goSerial.OpenPort(c)
         if err != nil {
                 log.Fatal(err)
         }
@@ -53,7 +53,7 @@ Example usage:
         log.Print("%q", buf[:n])
   }
 */
-package serial
+package goSerial
 
 import (
 	"errors"

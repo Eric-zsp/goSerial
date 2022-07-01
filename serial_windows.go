@@ -1,6 +1,6 @@
 // +build windows
 
-package serial
+package goSerial
 
 import (
 	"fmt"
